@@ -2,9 +2,9 @@
 # out the current state.
 def display_board(board=["X", "X", "X", " ", " ", " ", " ", " ", " "])
   r="-----------"
-  puts " #{colors[0]} | #{colors[]} | #{colors[0]} "
+  puts " #{colors[0]} | #{colors[1]} | #{colors[2]} "
   puts r
-  puts
+  puts " #{colors[3]} | #{colors[4]} | #{colors[5]} "
   puts r
-  puts
+  puts " #{colors[6]} | #{colors[7]} | #{colors[8]} "
 end
