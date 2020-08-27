@@ -1,6 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 def display_board(board)
+  colors=board
   r="-----------"
   puts " #{colors[0]} | #{colors[1]} | #{colors[2]} "
   puts r
